@@ -1,0 +1,86 @@
+
+.light-active {
+    position: absolute;
+    width: 550px;
+    height: 580px;
+    left: 505px;
+    top: 83px;
+
+    background-image: linear-gradient(
+            45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(289deg 100% 21%) 11%,
+            hsl(315deg 100% 27%) 22%,
+            hsl(329deg 100% 36%) 33%,
+            hsl(337deg 100% 43%) 44%,
+            hsl(357deg 91% 59%) 56%,
+            hsl(17deg 100% 59%) 67%,
+            hsl(34deg 100% 53%) 78%,
+            hsl(45deg 100% 50%) 89%,
+            hsl(55deg 100% 50%) 100%
+    );
+    border: 4px solid blue;
+}
+
+.main {
+
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+
+}
+.h1 {
+
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+.h2{
+
+    position: absolute;
+    width: 211px;
+    height: 51.23px;
+    left: 169px;
+    top: 125px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    /* or 25% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.footer
+{
+    position: absolute;
+    width: 346px;
+    height: 51px;
+    left: 102px;
+    top: 300px;
+    text-align: center;
+
+
+}
